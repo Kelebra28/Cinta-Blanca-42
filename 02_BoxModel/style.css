@@ -1,0 +1,56 @@
+/* * {
+    background-color: teal;
+} */
+
+h1 {
+    /* display: inline; */
+    border: 2px black solid;
+    /* width: 250px;
+    height: 250px; */
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+p {
+    border: 2px red solid;
+    width: 250px;
+    /* Forma de relog, arriba, derecha, abajo , izquierda */
+    margin: 100px 50px 200px 80px;
+}
+h2{
+    border: 2px rgb(212, 14, 146) solid;
+    width: 250px;
+    /* ejes arriba y abajo, izquierda y derecha */
+    margin: 150px 200px;
+}
+
+a {
+    border: 2px blue solid;
+}
+
+span{
+    border: 2px brown solid;
+} 
+
+h3 {
+    display: inline-block;
+    border: solid 2px blueviolet;
+    width: 200px;
+    height: 30px;
+}
+
+div{
+    /* border: solid 2px rgb(43, 226, 104); */
+    margin-left: 250px;
+    margin-top: 300px;
+}
+
+img{
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+   
+}
