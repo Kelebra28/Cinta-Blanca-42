@@ -1,0 +1,26 @@
+.padre {
+    border: 2px solid black;
+    height: 600px;
+    /* necesario para usar flexbox */
+    display: flex;
+    /* los cambia a columna e invierte los ejes */
+    flex-direction: column;
+    /* mueve los elemento en el eje x o horizal  */
+    justify-content: space-evenly; 
+    /* mueve los elemtos en el eje y o vertical  */
+    align-items: center; 
+}
+
+.hijo {
+    border: 2px solid red;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.hija {
+    border: 2px solid blue;
+    width: 40%;
+    height: 40%;
+}
