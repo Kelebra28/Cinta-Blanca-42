@@ -1,0 +1,23 @@
+{
+    "nombre": "Ricardo",
+    "direccion": "CDMX",
+    "telefono": "5135476324",
+    "edad": 22,
+    "musica": {
+        "metal": ["pantera", "metalica" ],
+        "pop": ["k-pop", "Julieta Venegas"],
+        "banda": ["Banda MS", "Banda Sonora"],
+        "trap": ["Duki", "Kidd Keo"],
+        "cumbias": ["los Angeles azules", "Cubia Metalera"]
+    },
+    "peliculas" : {
+        "terror" : {
+            "thrillerPsicologico" : "Terror",
+            "toy": "Chuky"
+        },
+        "accion": {
+            "carreras" : ["rf1", "rf2", "rf3","rf4","rf5","rf6"],
+            "disparos": ["Duro de matar","MI", "Los indestructibles"]
+        }
+    }
+}
