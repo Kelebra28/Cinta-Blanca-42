@@ -71,3 +71,4 @@ if(edad < 18 && edad > 10 || edad < 10 && edad === 5){
 // Van hacer el juego de piedra papel o tijera
 // Son dos jugadores, es decir dos usuarios 
 // monstrar en la consola que jugador gano
+
