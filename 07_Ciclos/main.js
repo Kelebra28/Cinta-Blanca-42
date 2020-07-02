@@ -61,6 +61,6 @@ for(var y = 1; y <=100; y++){
         console.log(y + ' Buzz')
     }else{
         console.log(y)
-    }
+    } 
 
 }
