@@ -30,7 +30,7 @@ for(var x = 0; x >= -500; x-= 5){
 // ciclo for del 1 al 100 de 1 en 1
 // si el numero es divisble entre 3 ----> Fizz
 // si el numero es divisible entre 5 ----> Buzz
-//Si en numero es divisib le entre 3 y 5 ----> FizzBuzz
+//Si en numero es divisible entre 3 y 5 ----> FizzBuzz
 
 // 0
 // 1
@@ -49,3 +49,18 @@ for(var x = 0; x >= -500; x-= 5){
 // 15 Fizz
 // 15 Buzz
 // 15 Fizzbuzz
+
+
+for(var y = 1; y <=100; y++){
+
+    if(y % 3 === 0 && y % 5 === 0 ){
+        console.log(y + ' FizzBuzz')
+    }else if (y  % 3 === 0){
+        console.log(y + 'Fizz')
+    }else if(y % 5 === 0){
+        console.log(y + ' Buzz')
+    }else{
+        console.log(y)
+    }
+
+}
