@@ -1,0 +1,45 @@
+
+.my-container{
+    border: solid 2px black;
+    height: 800px;
+}
+
+.my-row{
+    border: solid 2px blue;
+}
+
+.cuadro1{
+    background-color: green;
+    height: 100px ;
+}
+.cuadro2{
+    background-color: rgb(64, 78, 4);
+    height: 100px ;
+}
+
+.cuadro3{
+    background-color: rgb(117, 0, 128);
+    height: 100px ;
+}
+
+/* Los media qurys son breakepoints */
+
+@media (max-width: 1000px) {
+    .cuadro3{
+        background-color: rgb(30, 0, 128);
+    }
+    .cuadro2{
+        background-color: rgb(12, 240, 31);
+    }
+  }
+
+@media (max-width: 600px) {
+    .cuadro3{
+        background-color: rgb(128, 0, 0);
+    }
+    .cuadro2{
+        background-color: rgb(221, 12, 240);
+    }
+  }
+
+
