@@ -1,0 +1,19 @@
+.cuadro1{
+    background-color: green;
+
+}
+.cuadro2{
+    background-color: rgb(64, 78, 4);
+
+}
+.cuadro3{
+    background-color: rgb(117, 0, 128);
+
+}
+body {
+    background-color: darkgreen;
+}
+.my-container{
+    border: solid 2px black;
+
+}
