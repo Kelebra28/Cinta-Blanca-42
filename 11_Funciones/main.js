@@ -69,4 +69,25 @@ console.log(suma(x, y))
 // console.log(suma(suma(10, 50), 40))
 
 
-//----------------------
+//----------------------> Challege <---------------------
+
+// arrow fuction
+// funcion para el area del cuadrado
+// funcion para area del rectuangulo
+// funcion para el area de un triangulo
+
+
+const cuadrado = (lado) => {
+    console.log(lado * lado)
+}
+cuadrado(5, 10
+    )
+const rectangulo = (base, altura) => {
+    console.log(base * altura)
+}
+rectangulo(50,40)
+
+const triangulo = (base, altura) => {
+    console.log((base * altura) / 2)
+}
+triangulo(80, 50)
