@@ -47,16 +47,26 @@ const num3 = 100
 // console.log(num3)
 
 //arrow function o funciones de flecha
-
-const suma = (x, y) => {
-    console.log('La suma de ' + x + ' mas ' + y + ' es: ' + (x +y))
-}
-
-suma(20, 50)
-
-
 const salu2 = (a, b) => {
     console.log('Saludos ' + a + ' de ' + b + ' años de edad')
 }
 
-salu2('Ricardo', 22)
+// salu2('Ricardo', 22)
+
+//-------------------------------------------
+let x = 10
+let y = 0
+const suma = () => {
+   return x  + y
+}
+
+
+console.log(suma(x, y))
+// suma(10, 50) // ---> 60
+
+// suma(suma(10, 50), 40) //----> 100
+
+// console.log(suma(suma(10, 50), 40))
+
+
+//----------------------
