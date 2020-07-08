@@ -91,3 +91,4 @@ const triangulo = (base, altura) => {
     console.log((base * altura) / 2)
 }
 triangulo(80, 50)
+
